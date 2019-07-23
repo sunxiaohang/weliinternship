@@ -1,3 +1,5 @@
+package consumerproducer;
+
 import consumerproducer.Consumer;
 import consumerproducer.EventStorage;
 import consumerproducer.Producer;
