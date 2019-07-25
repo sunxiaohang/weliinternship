@@ -2,7 +2,7 @@
 
 #### 实习周报
 
-##### 第一周 [2019/7/26](https://sunxiaohang.github.io/2019/07/26/实习周报)
+##### 第一周 [2019/7/26](https://sunxiaohang.github.io/2019/07/26/实习周报.html)
 
 - Maven
 - Git
@@ -11,11 +11,11 @@
 - 单元测试
 - Redis使用
 
-##### 第二周 [2019/8/2](https://sunxiaohang.github.io/2019/08/02/JavaConcurrenceCookBook)
+##### 第二周 [2019/8/2](https://sunxiaohang.github.io/2019/08/02/JavaConcurrenceCookBook.html)
 
 **Java并发编程**
 
-- 线程创建、中断、睡眠、回复、守护线程、线程组、ThreadLocak
+- 线程创建、中断、睡眠、回复、守护线程、线程组、ThreadLocal
 - 线程同步粒度、多条件同步
 - 线程Executor控制与调度
 - Fork/Join框架
