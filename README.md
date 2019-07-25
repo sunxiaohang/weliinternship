@@ -1,5 +1,12 @@
 ### 学习项目目录
 
+#### 实习周报
+
+- [2019/7/26](https://sunxiaohang.github.io/2019/07/26/实习周报)
+- [2019/8/2](https://sunxiaohang.github.io/2019/08/02/JavaConcurrenceCookBook)
+- [2019/8/9](https://github.com/sunxiaohang/weliinternship)
+- [2019/8/16](https://github.com/sunxiaohang/weliinternship)
+
 #### 项目工程化
 - Git版本管理 
 - Maven

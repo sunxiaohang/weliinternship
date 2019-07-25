@@ -1,4 +1,20 @@
 package separatestartandresult;
 
-public class ReportGenerator {
+import java.util.concurrent.Callable;
+
+public class ReportGenerator implements Callable<String> {
+    private final String sender;
+    private final String title;
+
+    public ReportGenerator(String sender, String title) {
+        this.sender = sender;
+        this.title = title;
+    }
+
+    @Override
+    public String call() throws Exception {
+        System.out.println(this.sender+","+this.title);
+        String ret = sender+":"+title;
+        return ret;
+    }
 }
