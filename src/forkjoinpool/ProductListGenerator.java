@@ -2,7 +2,10 @@ package forkjoinpool;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author sunhang
+ * @email sunhang@weli.cn
+ */
 public class ProductListGenerator {
     public List<Product> generate(int size){
         List<Product> result = new ArrayList<>();

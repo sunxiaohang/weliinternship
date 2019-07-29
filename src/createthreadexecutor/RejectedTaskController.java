@@ -4,7 +4,8 @@ import java.util.concurrent.RejectedExecutionHandler;
 import java.util.concurrent.ThreadPoolExecutor;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class RejectedTaskController implements RejectedExecutionHandler {
     @Override

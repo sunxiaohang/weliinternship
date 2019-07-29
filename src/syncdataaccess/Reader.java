@@ -3,7 +3,8 @@ package syncdataaccess;
 import java.util.Date;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class Reader implements Runnable{
     private PricesInfo pricesInfo;

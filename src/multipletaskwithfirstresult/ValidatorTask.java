@@ -8,7 +8,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class ValidatorTask implements Callable<String> {
     private final UserValidator validator;

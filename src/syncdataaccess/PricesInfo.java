@@ -5,7 +5,8 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class PricesInfo {
     private double price1;

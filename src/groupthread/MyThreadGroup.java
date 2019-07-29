@@ -1,7 +1,8 @@
 package groupthread;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class MyThreadGroup extends ThreadGroup {
     public MyThreadGroup(String name) {

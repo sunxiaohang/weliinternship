@@ -1,7 +1,8 @@
 package multiplecondition;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class FileMock {
     private String[] content;

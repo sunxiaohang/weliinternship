@@ -1,5 +1,8 @@
 package forkjoinpool;
-
+/**
+ * @author sunhang
+ * @email sunhang@weli.cn
+ */
 public class Product {
     private String name;
     private double price;

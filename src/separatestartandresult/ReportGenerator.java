@@ -1,7 +1,10 @@
 package separatestartandresult;
 
 import java.util.concurrent.Callable;
-
+/**
+ * @author sunhang
+ * @email sunhang@weli.cn
+ */
 public class ReportGenerator implements Callable<String> {
     private final String sender;
     private final String title;

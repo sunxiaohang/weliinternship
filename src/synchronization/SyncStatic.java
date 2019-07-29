@@ -1,7 +1,8 @@
 package synchronization;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class SyncStatic implements Runnable{
     private static int count;

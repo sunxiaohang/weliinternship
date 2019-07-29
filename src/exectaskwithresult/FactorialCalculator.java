@@ -6,7 +6,8 @@ import java.util.Random;
 import java.util.concurrent.*;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class FactorialCalculator implements Callable<Integer> {
     private final Integer number;

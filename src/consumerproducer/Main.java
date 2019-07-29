@@ -1,12 +1,9 @@
 package consumerproducer;
 
-import consumerproducer.Consumer;
-import consumerproducer.EventStorage;
-import consumerproducer.Producer;
-
 import java.io.IOException;
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class Main {
     public static void main(String[] args) throws IOException {

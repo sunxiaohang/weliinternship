@@ -1,7 +1,10 @@
 package separatestartandresult;
 
 import java.util.concurrent.CompletionService;
-
+/**
+ * @author sunhang
+ * @email sunhang@weli.cn
+ */
 public class ReportRequest implements Runnable{
     private final String name;
     private final CompletionService<String> service;

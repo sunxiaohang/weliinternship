@@ -1,7 +1,10 @@
 package separatestartandresult;
 
 import java.util.concurrent.*;
-
+/**
+ * @author sunhang
+ * @email sunhang@weli.cn
+ */
 public class ReportProcessor implements Runnable{
     private final CompletionService<String> service;
     private volatile boolean end;

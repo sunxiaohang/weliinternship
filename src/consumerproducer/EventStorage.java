@@ -4,6 +4,10 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * @author sunhang
+ * @email sunhang@weli.cn
+ */
 public class EventStorage {
     private int maxSize;
     private Queue<Date> storage;

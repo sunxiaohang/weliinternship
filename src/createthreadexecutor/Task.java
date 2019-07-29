@@ -4,7 +4,8 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class Task implements Runnable{
     private final Date initDate;

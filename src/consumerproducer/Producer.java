@@ -1,5 +1,8 @@
 package consumerproducer;
-
+/**
+ * @author sunhang
+ * @email sunhang@weli.cn
+ */
 public class Producer implements Runnable{
     private EventStorage storage;
     public Producer(EventStorage storage) {

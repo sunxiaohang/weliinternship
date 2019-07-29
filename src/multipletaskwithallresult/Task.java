@@ -6,7 +6,8 @@ import java.util.Random;
 import java.util.concurrent.*;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class Task implements Callable<Result> {
     private final String name;

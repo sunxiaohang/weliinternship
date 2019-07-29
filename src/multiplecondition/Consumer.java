@@ -1,7 +1,8 @@
 package multiplecondition;
 import java.util.Random;
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class Consumer implements Runnable{
     private Buffer buffer;

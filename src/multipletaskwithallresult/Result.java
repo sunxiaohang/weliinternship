@@ -1,5 +1,8 @@
 package multipletaskwithallresult;
-
+/**
+ * @author sunhang
+ * @email sunhang@weli.cn
+ */
 public class Result {
     private String name;
     private int value;

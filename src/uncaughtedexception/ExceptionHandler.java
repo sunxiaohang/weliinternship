@@ -1,7 +1,8 @@
 package uncaughtedexception;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class ExceptionHandler implements Thread.UncaughtExceptionHandler {
     @Override

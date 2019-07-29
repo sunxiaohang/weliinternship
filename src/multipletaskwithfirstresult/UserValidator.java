@@ -3,7 +3,8 @@ package multipletaskwithfirstresult;
 import java.util.Random;
 
 /**
- * @author Administrator
+ * @author sunhang
+ * @email sunhang@weli.cn
  */
 public class UserValidator {
     private final String name;
