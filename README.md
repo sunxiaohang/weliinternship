@@ -19,6 +19,13 @@
 - 线程同步粒度、多条件同步
 - 线程Executor控制与调度
 - Fork/Join框架
+**Java虚拟机相关**
+[深入理解java虚拟机](https://sunxiaohang.github.io/2019/08/02/深入理解java虚拟机.html)
+- java的内存分块
+- 垃圾回收机制
+- java的类加载机制
+- java OOM问题
+- 字节码解释引擎
 
 ##### 第三周 [2019/8/9](https://github.com/sunxiaohang/weliinternship)
 

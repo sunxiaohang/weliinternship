@@ -1,6 +1,7 @@
-package com.packtpub.java9.concurrency.cookbook.chapter01.recipe03.task;
+package com.packtpub.java9.concurrency.cookbook.chapter01.recipe03;
 
 import java.io.File;
+import java.util.concurrent.TimeUnit;
 
 /**
  * This class search for files with a name in a directory
@@ -18,7 +19,7 @@ public class FileSearch implements Runnable {
 
 	/**
 	 * Constructor of the class
-	 * 
+	 *
 	 * @param initPath
 	 *            : Initial path for the search
 	 * @param fileName
@@ -54,7 +55,7 @@ public class FileSearch implements Runnable {
 
 	/**
 	 * Method that process a directory
-	 * 
+	 *
 	 * @param file
 	 *            : Directory to process
 	 * @throws InterruptedException
@@ -83,7 +84,7 @@ public class FileSearch implements Runnable {
 
 	/**
 	 * Method that process a File
-	 * 
+	 *
 	 * @param file
 	 *            : File to process
 	 * @throws InterruptedException
@@ -99,6 +100,24 @@ public class FileSearch implements Runnable {
 		if (Thread.interrupted()) {
 			throw new InterruptedException();
 		}
+	}
+	public static void main(String[] args) {
+		// Creates the Runnable object and the Thread to run it
+		FileSearch searcher = new FileSearch("C:\\", "autoexec.bat");
+		Thread thread = new Thread(searcher);
+
+		// Starts the Thread
+		thread.start();
+
+		// Wait for ten seconds
+		try {
+			TimeUnit.SECONDS.sleep(10);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+
+		// Interrupts the thread
+		thread.interrupt();
 	}
 
 }

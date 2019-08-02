@@ -1,12 +1,12 @@
 package com.packtpub.java9.concurrency.cookbook.chapter08.recipe12.main;
 
-import java.util.Date;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.Flow.Subscriber;
-
 import com.packtpub.java9.concurrency.cookbook.chapter08.recipe12.data.News;
 import com.packtpub.java9.concurrency.cookbook.chapter08.recipe12.stream.Consumer;
 import com.packtpub.java9.concurrency.cookbook.chapter08.recipe12.stream.MyPublisher;
+
+import java.util.Date;
+import java.util.concurrent.Flow;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
 
@@ -14,7 +14,7 @@ public class Main {
 
 		MyPublisher publisher=new MyPublisher();
 		
-		Subscriber<News> consumer1, consumer2;
+		Flow.Subscriber<News> consumer1, consumer2;
 		consumer1=new Consumer("Consumer 1");
 		consumer2=new Consumer("Consumer 2");
 		

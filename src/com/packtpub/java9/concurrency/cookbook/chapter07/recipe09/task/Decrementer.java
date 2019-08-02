@@ -1,9 +1,9 @@
 package com.packtpub.java9.concurrency.cookbook.chapter07.recipe09.task;
 
+import com.packtpub.java9.concurrency.cookbook.chapter07.recipe07.task.Account;
+
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.VarHandle;
-
-import com.packtpub.java9.concurrency.cookbook.chapter07.recipe09.data.Account;
 
 public class Decrementer implements Runnable {
 

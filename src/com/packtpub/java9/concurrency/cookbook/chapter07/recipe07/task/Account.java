@@ -24,8 +24,9 @@ public class Account {
 	 * Accumulated commission 
 	 */
 	private final DoubleAccumulator commission;
-	
-	public Account() {
+    public int unsafeAmount;
+
+    public Account() {
 		balance = new AtomicLong();
 		operations = new LongAdder();
 		commission = new DoubleAccumulator((x,y)-> x+y*0.2, 0);

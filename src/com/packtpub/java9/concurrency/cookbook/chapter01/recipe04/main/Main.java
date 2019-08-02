@@ -2,7 +2,6 @@ package com.packtpub.java9.concurrency.cookbook.chapter01.recipe04.main;
 
 import java.util.concurrent.TimeUnit;
 
-import com.packtpub.java7.concurrency.cookbook.chapter01.recipe04.task.ConsoleClock;
 
 /**
  * Main class of the Example. Creates a FileClock runnable object and a Thread
@@ -17,11 +16,11 @@ public class Main {
 	public static void main(String[] args) {
 		// Creates a FileClock runnable object and a Thread
 		// to run it
-		ConsoleClock clock = new ConsoleClock();
-		Thread thread = new Thread(clock);
+//		ConsoleClock clock = new ConsoleClock();
+//		Thread thread = new Thread(clock);
 
 		// Starts the Thread
-		thread.start();
+//		thread.start();
 		try {
 			// Waits five seconds
 			TimeUnit.SECONDS.sleep(5000);
@@ -30,6 +29,6 @@ public class Main {
 		}
 
 		// Interrupts the Thread
-		thread.interrupt();
+//		thread.interrupt();
 	}
 }

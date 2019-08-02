@@ -99,7 +99,6 @@ public class FolderProcessor extends CountedCompleter<List<String>> {
 			}
 
 		}
-
 		// Try the completion of the task
 		tryComplete();
 	}

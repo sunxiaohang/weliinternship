@@ -1,15 +1,15 @@
 package com.packtpub.java9.concurrency.cookbook.chapter06.recipe09.consumers;
 
-import java.util.concurrent.Flow;
-
 import com.packtpub.java9.concurrency.cookbook.chapter06.recipe09.items.Item;
+
+import java.util.concurrent.Flow;
 
 public class Consumer1 implements Flow.Subscriber<Item> {
 
 	@Override
 	public void onComplete() {
 		System.out.printf("%s: Consumer 1: Completed\n", Thread.currentThread().getName());
-		
+
 	}
 
 	@Override

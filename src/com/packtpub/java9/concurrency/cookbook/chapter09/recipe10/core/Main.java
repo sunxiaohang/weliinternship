@@ -1,6 +1,5 @@
 package com.packtpub.java9.concurrency.cookbook.chapter09.recipe10.core;
 
-import com.packtpub.java9.concurrency.cookbook.chapter09.recipe10.test.ProducerConsumerTest;
 
 /**
  * Main class of the example. Executes the test of the LinkedTransferQueue
@@ -15,7 +14,7 @@ public class Main {
 		/*
 		 * Create a Test object
 		 */
-		ProducerConsumerTest test=new ProducerConsumerTest();
+//		ProducerConsumerTest test=new ProducerConsumerTest();
 		
 		/*
 		 * Execute the test
