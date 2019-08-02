@@ -2,7 +2,9 @@
 
 #### 实习周报
 
-##### 第一周 [2019/7/26](https://sunxiaohang.github.io/2019/07/26/实习周报.html)
+##### 第一周 (2019-7-26)
+
+[项目工程化](https://sunxiaohang.github.io/2019/07/26/实习周报.html)
 
 - Maven
 - Git
@@ -11,26 +13,31 @@
 - 单元测试
 - Redis使用
 
-##### 第二周 [2019/8/2](https://sunxiaohang.github.io/2019/08/02/JavaConcurrenceCookBook.html)
+##### 第二周 (2019-8-2)
 
-**Java并发编程**
+[Java并发](https://sunxiaohang.github.io/2019/08/02/JavaConcurrenceCookBook.html)
 
 - 线程创建、中断、睡眠、回复、守护线程、线程组、ThreadLocal
 - 线程同步粒度、多条件同步
 - 线程Executor控制与调度
 - Fork/Join框架
-**Java虚拟机相关**
-[深入理解java虚拟机](https://sunxiaohang.github.io/2019/08/02/深入理解java虚拟机.html)
+
+[Java虚拟机相关](https://sunxiaohang.github.io/2019/08/02/深入理解java虚拟机.html)
+
 - java的内存分块
 - 垃圾回收机制
 - java的类加载机制
 - java OOM问题
 - 字节码解释引擎
 
-##### 第三周 [2019/8/9](https://github.com/sunxiaohang/weliinternship)
+##### 第三周 (2019-8-9)
+
+[未完成](https://github.com/sunxiaohang/weliinternship)
 
 
-##### 第四周 [2019/8/16](https://github.com/sunxiaohang/weliinternship)
+##### 第四周 (2019-8-16)
+
+[未完成](https://github.com/sunxiaohang/weliinternship)
 
 
 ### Target
