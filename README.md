@@ -32,8 +32,20 @@
 
 ##### 第三周 (2019-8-9)
 
-[未完成](https://github.com/sunxiaohang/weliinternship)
+[Java锁](https://sunxiaohang.github.io/2019/08/09/Java锁.html)
 
+- 内部原理
+- 锁的区别与适用场景
+- 并发容器
+
+Spring
+
+- 反射
+- 注解
+- 动态代理
+- IOC[DI]
+- AOP
+- Spring MVC
 
 ##### 第四周 (2019-8-16)
 
